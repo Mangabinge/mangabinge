@@ -1,4 +1,4 @@
-@import "./breakpoints.module.scss";
+@use "breakpoints";
 
 :root {
   /* Colors */
@@ -11,7 +11,7 @@
 
   --color-text-light: var(--color-white);
   --color-text-dark: var(--color-black);
-  --color-text: var(--color-light);
+  --color-text: var(--color-text-light);
 
   /* Font sizes */
   --font-size-regular: 18px;

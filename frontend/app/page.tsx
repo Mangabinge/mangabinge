@@ -2,7 +2,11 @@
 // import styles from "./page.module.css";
 
 const Home = () => {
-  return <h1>HOME</h1>;
+  return (
+    <div>
+      <h1>HOME</h1>
+    </div>
+  );
 };
 
 export default Home;
