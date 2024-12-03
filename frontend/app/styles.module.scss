@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.home__manga-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 70px;
+}
